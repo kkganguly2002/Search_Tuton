@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --orange:#f9ba60;
-    --pink:#e9768f;
+    --orange:	#FFD700;
+    --pink:#974fc3;
     --black: #1d1c1c;
     --white: #fff;
     --light-color:#666;
@@ -81,6 +81,7 @@ section{
 }
 
 .header .logo i{
+  margin-right: 10px;
   color: var(--orange);
 }
 
@@ -669,4 +670,62 @@ section{
   }
 }
 
+/* search bar */
+.searchbar .search1{
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.search{
+  width: 100px;
+}
+.subject{
+  width: 100px;
+}
+.search_button{
+  height: 50px;
+  width: 100px;
+  background: #974fc3;
+  color: #eee;
+  border-radius: 50px;
+}
+.search_button:hover{
+  background: #FFD700;
+  cursor: pointer;
+}
 
+/* login */
+.login-form .student_login{
+  width: 100%;
+  margin: .7rem 0;
+  background: #eee;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: capitalize;
+  height: 50px;
+}
+.login-form .Teacher_login{
+  width: 100%;
+  margin: .7rem 0;
+  background: #eee;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: capitalize;
+  height: 50px;
+ 
+}
+.login-form .student_login:hover{
+  background: #FFD700;
+  color: #eee;
+  cursor: pointer;
+}
+.login-form .Teacher_login:hover{
+  background: #FFD700;
+  color: #eee;
+  cursor: pointer;
+}
