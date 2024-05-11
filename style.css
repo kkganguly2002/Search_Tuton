@@ -325,6 +325,7 @@ section{
   gap: 1.5rem;
 }
 
+
 .activities .box-container .box{
   padding: 3rem 2rem;
   text-align: center;
@@ -333,14 +334,21 @@ section{
   outline: .1rem solid rgba(0,0,0,.1);
   outline-offset: -1rem;
 }
-
-.activities .box-container .box img{
-  height: 8rem;
+.activities .box-container .box i{
+  font-size: 1rem;
+}
+.activities .box-container .box .fas{
+  font-size: 2rem;
+  color: #000;
+}
+.activities .box-container .box:hover{
+  background: #FFD700;
+  cursor: pointer;
+}
+.activities .box-container .box .fas:hover{
+  color: #eee;
 }
 
-.activities .box-container .box:hover img{
-  transform: scale(1.1);
-}
 
 .activities .box-container .box h3{
   font-size: 2.2rem;
