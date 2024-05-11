@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Tuton</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- lightgallery css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-map-marker-alt"></i>Search Tutor</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="courses.html">Courses</a>
+            <a href="teacher.html">teacher</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <button class="student_login" type="button">Student</button>
+            <button class="Teacher_login" type="button">Teacher</button>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us</h1>
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours :</h3>
+                <p>mon - thurs: 08:00 am to 12:30 pm</p>
+                <p>friday: 09:00 am to 12:00 pm</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>ninjashub4@gmail.com</p>
+                <p>ninjashub4@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone number</h3>
+                <p>+123-456-7890</p>
+                <p>+123-456-7890</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.gif" alt="">
+            </div>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="your name">
+                    <input type="email" placeholder="your email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="your number">
+                    <input type="text" placeholder="your subject">
+                </div>
+                <textarea placeholder="your message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> <i class="fas fa-school"></i> Kindergarten </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, unde</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> enroll now</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> parent portal</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> school calendar</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> lunch menu</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> school supply list</a>
+            </div>
+
+            <div class="box">
+                <h3>category</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> about us</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> academics</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> admissions</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> news & events</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> contact us</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> privacy policy</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> site map</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> FAQs</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> accessibility statement</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2023 by <span>ninjashub</span></div>
+
+    </section>
+    <!-- footer section ends -->
+    <!-- lightgallery cdn js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+</body>
+</html>
