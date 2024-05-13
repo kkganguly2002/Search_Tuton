@@ -70,12 +70,12 @@ section{
   align-items: center;
   justify-content: space-between;
   padding: 2rem 9%;
-  background: var(--white);
+  background: var(--pink);
   box-shadow: var(--box-shadow);
 }
 
-.header .logo{
-  font-size: 2.5rem;
+.header .logo img{
+  height: 50px;
   font-weight: bolder;
   color: var(--black);
 }
@@ -88,7 +88,7 @@ section{
 .header .navbar a{
   font-size: 1.7rem;
   margin: 0 1rem;
-  color: var(--black);
+  color:var(--black);
 }
 
 .header .navbar a:hover,
@@ -208,7 +208,7 @@ section{
   display: block;
   width: calc(100% + 1.3px);
   height: 107px;
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
 }
 
 .custom-shape-divider-bottom-1684324473 .shape-fill {
@@ -261,7 +261,7 @@ section{
 /* teacher */
 
 .teacher{
-  background: url(images/teacher-bg.png) no-repeat;
+  /* background: url(images/teacher-bg.png) no-repeat; */
   background-position: center;
   background-size: cover;
 }
@@ -278,6 +278,10 @@ section{
   text-align: center;
   box-shadow: var(--box-shadow);
   border-radius: 2rem;
+}
+.teacher .box-container .box:hover{
+  cursor: pointer;
+  background: #FFD700;
 }
 
 .teacher .box-container .box img{
@@ -470,7 +474,9 @@ section{
   grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
   gap: 1.5rem;
 }
-
+.footer .box-container .box img{
+  height: 50px;
+}
 .footer .box-container .box h3{
   font-size: 2.2rem;
   color: var(--orange);

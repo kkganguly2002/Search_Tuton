@@ -1,5 +1,5 @@
 /* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4070f4;
+    background-color: #974fc3;
     column-gap: 30px;
 }
 .form{
@@ -81,12 +81,12 @@ form{
 }
 .field button{
     color: #fff;
-    background-color: #0171d3;
+    background-color: #974fc3;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 .field button:hover{
-    background-color: #016dcb;
+    background-color: #FFD700;
 }
 .form-link{
     text-align: center;
@@ -99,7 +99,7 @@ form{
     color: #232836;
 }
 .form a{
-    color: #0171d3;
+    color: #974fc3;
     text-decoration: none;
 }
 .form-content a:hover{
